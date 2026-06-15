@@ -2,7 +2,7 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
 }
 
-h1 {
+.site-header, h1 {
     background-color: #1F2937;
     color: #F9FAF8;
     font-weight: 900;
@@ -13,9 +13,10 @@ header link {
     font-size: 18px;
 }
 
-header logo {
+header logo, .header-container {
     color: #F9FAF8;
     font-size: 24px;
+    display: inline-block
 }
 
 button {
