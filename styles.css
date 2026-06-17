@@ -2,21 +2,30 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
 }
 
-.site-header, h1 {
+header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.navbar {
     background-color: #1F2937;
     color: #F9FAF8;
     font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    /*padding: */
 }
 
-header link {
+.nav-links {
     color: #E5E7EB;
     font-size: 18px;
-}
-
-header logo, .header-container {
-    color: #F9FAF8;
-    font-size: 24px;
-    display: inline-block
+    padding: 0 20px;
 }
 
 button {
